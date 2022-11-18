@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  font-family: Roboto, sans-serif;
+}
+
+footer {
+  color: #fff;
+  background-color: #10367c;
+}
+
+.header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #383838;
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 84px;
+  margin-left: 181px;
+  margin-right: 122px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.support-img {
+  width: 75px;
+  height: 91.67px;
+}
+
+.communicate-img {
+  width: 83.33px;
+  height: 83.33px;
+}
+
+.book-img {
+  width: 100px;
+  height: 66.67px;
+}
+
+.review-img {
+  width: 91.67px;
+  height: 83.33px;
+}
+
+.text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #383838;
+  margin-top: 60px;
+}
+
+.footer {
+  margin-top: 120px;
+  margin-left: 104px;
+}
+
+.menu-footer {
+  display: flex;
+  /* justify-content: space-between; */
+  padding-top: 120px;
+}
+
+.list-footer {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  /* line-height: 23px; */
+  margin-top: 23px;
+}
+
+.header-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  /* line-height: 23px; */
+}
+
+.property {
+  margin-left: 223px;
+}
+
+.support {
+  margin-left: 283px;
+}
+
+.credit {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 67px;
+  padding-left: 2px;
+  padding-bottom: 120px;
+}
