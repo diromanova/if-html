@@ -27,17 +27,17 @@ footer {
 }
 
 .line {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  width: 100px;
+  height: 4px;
+  border: 0;
+  background: #f5bd41;
+  margin: 20px auto 0;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
-  margin-top: 84px;
-  margin-left: 181px;
-  margin-right: 122px;
+  justify-content: space-around;
+  margin: 84px auto 0;
   text-align: center;
 }
 
