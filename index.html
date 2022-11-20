@@ -5,15 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./img/favicon/favicon.ico" />
     <title>TripHouse</title>
   </head>
   <body>
-    <div class="wrapper">
+    <main>
+      <div class="wrapper">
+        <div class="header-main container">
+          <div class="logo"><img src="img/logo_vector.png" alt="logo" /></div>
+          <div class="header-menu">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="#" class="nav-link"> Stays </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Attractions </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link"
+                    ><img src="img/Night.png" alt="Night" />
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <img src="img/AccountCircle.png" alt="Account"
+                  /></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="form">
+            <h1 class="main-text-by-form">
+              Discover stays,<br />
+              to live, work or just relax
+            </h1>
+            <div class="name-input">
+              <p class="hotel-name">Your distanation or hotel name</p>
+              <p class="check">Check-in Check-out</p>
+            </div>
+            <form action="" class="main-form">
+              <!-- <label for="country" class="name-input"
+                >Your distanation or hotel name</label
+              > -->
+              <input
+                id="country"
+                type="text"
+                name="country"
+                placeholder="City"
+                required
+              />
+              <!-- 
+              <label for="date" class="name-input">Check-in Check-out </label> -->
+              <input
+                id="date"
+                type="text"
+                name="date"
+                placeholder="Date"
+                required
+              />
+
+              <input
+                id="amount"
+                type="text"
+                name="amount"
+                placeholder="Amount"
+                required
+              />
+
+              <button class="btn">Search</button>
+            </form>
+          </div>
+
+          <div class="app-market">
+            <a href="#">
+              <img src="./img/GooglePlay.png" alt="Google Play" />
+            </a>
+            <a href="#">
+              <img src="./img/AppStore.png" alt="App Store" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div>
       <h1 class="header">What do we offer</h1>
       <div class="line">
         <img src="./img/highlight (Stroke).jpg" alt="line" />
       </div>
-      <div class="container">
+      <div class="container-offer">
         <div class="content">
           <img class="support-img" src="./img/Vector.png" alt="support" />
           <p class="text">Support 24/7</p>
