@@ -11,9 +11,11 @@
   <body>
     <main>
       <div class="wrapper">
-        <div class="header-main container">
-          <div class="logo"><img src="img/logo_vector.png" alt="logo" /></div>
-          <div class="header-menu">
+        <div class="header-section">
+          <div class="header-section__logo">
+            <img src="img/logo_vector.png" alt="logo" />
+          </div>
+          <div class="header-section__menu">
             <nav class="nav">
               <ul class="nav-list">
                 <li class="nav-item">
@@ -22,7 +24,7 @@
                 <li class="nav-item">
                   <a href="#" class="nav-link">Attractions </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item night-icon">
                   <a href="#" class="nav-link"
                     ><img src="img/Night.png" alt="Night" />
                   </a>
@@ -36,19 +38,14 @@
             </nav>
           </div>
         </div>
-
-        <div class="container">
-          <div class="form">
-            <h1 class="main-text-by-form">
-              Discover stays,<br />
+        <div class="top-section">
+          <div class="top-section__shape">
+            <h1 class="shape__header">
+              Discover stays<br />
               to live, work or just relax
             </h1>
-            <!-- <div class="name-input">
-              <p class="hotel-name">Your distanation or hotel name</p>
-              <p class="check">Check-in Check-out</p>
-            </div> -->
-            <form action="" class="main-form">
-              <label for="country" class="name-input-city"
+            <form action="" class="shape__form">
+              <label for="country" class="form__name--city"
                 >Your distanation or hotel name</label
               >
               <input
@@ -59,8 +56,8 @@
                 required
               />
 
-              <label for="date" class="name-input-date"
-                >Check-in&mdash;Check-out
+              <label for="date" class="form__name--date"
+                >Check-in &mdash; Check-out
               </label>
               <input
                 id="date"
@@ -78,11 +75,10 @@
                 required
               />
 
-              <button class="btn">Search</button>
+              <button class="form__btn">Search</button>
             </form>
           </div>
-
-          <div class="app-market">
+          <div class="top-section__app-market">
             <a href="#">
               <img src="./img/GooglePlay.png" alt="Google Play" />
             </a>
@@ -93,66 +89,78 @@
         </div>
       </div>
     </main>
-    <div>
-      <h1 class="header">What do we offer</h1>
-      <div class="line">
-        <hr class="line" />
+    <section>
+      <div class="wrapper">
+        <div class="offer-section">
+          <h1 class="offer-section__header">What do we offer</h1>
+          <hr class="line" />
+          <div class="offer-section__container">
+            <div class="offer-section__container--content">
+              <img
+                class="support-img"
+                src="./img/support_icon.png"
+                alt="support"
+              />
+              <p class="text">Support 24/7</p>
+            </div>
+            <div class="offer-section__container--content">
+              <img
+                class="communicate-img"
+                src="./img/communicate_icon.png"
+                alt="communicate"
+              />
+              <p class="text">Communicate directly</p>
+            </div>
+            <div class="offer-section__container--content">
+              <img class="book-img" src="./img/book_icon.png" alt="book" />
+              <p class="text">Book online</p>
+            </div>
+            <div class="offer-section__container--content">
+              <img
+                class="review-img"
+                src="./img/reviews_icon.png"
+                alt="reiews"
+              />
+              <p class="text">Real guest reviews</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="container-offer">
-        <div class="content">
-          <img class="support-img" src="./img/support_icon.png" alt="support" />
-          <p class="text">Support 24/7</p>
-        </div>
-        <div class="content">
-          <img
-            class="communicate-img"
-            src="./img/communicate_icon.png"
-            alt="communicate"
-          />
-          <p class="text">Communicate directly</p>
-        </div>
-        <div class="content">
-          <img class="book-img" src="./img/book_icon.png" alt="book" />
-          <p class="text">Book online</p>
-        </div>
-        <div class="content vektor-review">
-          <img class="review-img" src="./img/reviews_icon.png" alt="reiews" />
-          <p class="text">Real guest reviews</p>
-        </div>
-      </div>
-    </div>
+    </section>
     <footer>
-      <div class="footer">
-        <div class="menu-footer">
-          <div class="item-footer">
-            <ul class="list-footer about">
-              <li class="header-list">About</li>
-              <li class="list">How Triphouse works</li>
-              <li class="list">Careers</li>
-              <li class="list">Privacy</li>
-              <li class="list">Terms</li>
+      <div class="wrapper">
+        <div class="footer-section">
+          <div class="footer-section__item">
+            <ul class="footer-section__list about">
+              <li class="footer__list--header">About</li>
+              <li class="footer__list">How Triphouse works</li>
+              <li class="footer__list">Careers</li>
+              <li class="footer__list">Privacy</li>
+              <li class="footer__list">Terms</li>
             </ul>
           </div>
-          <div class="item-footer">
-            <ul class="list-footer property">
-              <li class="header-list">Property types</li>
-              <li class="list">Guest houses</li>
-              <li class="list">Hotels</li>
-              <li class="list">Apartments</li>
-              <li class="list">Villas</li>
-              <li class="list">Holiday homes</li>
-              <li class="list">Hostels</li>
+          <div class="footer-section__item">
+            <ul class="footer-section__list property">
+              <li class="footer__list--header">Property types</li>
+              <li class="footer__list">Guest houses</li>
+              <li class="footer__list">Hotels</li>
+              <li class="footer__list">Apartments</li>
+              <li class="footer__list">Villas</li>
+              <li class="footer__list">Holiday homes</li>
+              <li class="footer__list">Hostels</li>
             </ul>
           </div>
-          <div class="item-footer">
-            <ul class="list-footer support">
-              <li class="header-list">Support</li>
-              <li class="list">Contact Customer Service</li>
-              <li class="list">FAQ</li>
+          <div class="footer-section__item">
+            <ul class="footer-section__list support">
+              <li class="footer__list--header">Support</li>
+              <li class="footer__list">Contact Customer Service</li>
+              <li class="footer__list">FAQ</li>
             </ul>
           </div>
         </div>
-        <div class="credit">&#169; 2022Triphouse, Inc. All rights reserved</div>
+        <div class="footer-section__credit">
+          &#169; 2022Triphouse, Inc. All rights reserved
+        </div>
       </div>
     </footer>
   </body>
