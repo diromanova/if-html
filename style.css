@@ -37,7 +37,7 @@ main {
 }
 
 .nav-list {
-  font-family: "Roboto";
+  font-family: Sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -66,8 +66,11 @@ main {
 
 .nav-link-stays:after {
   display: block;
+  width: 50px;
+  height: 0px;
+  margin: 12px auto 0;
   content: "";
-  border-bottom: 2px solid #f5bd41;
+  border-bottom: 4px solid #f5bd41;
 }
 
 .nav-item {
@@ -99,11 +102,8 @@ main {
 }
 
 .btn {
-  /* position: absolute; */
   width: 192px;
   height: 64px;
-
-  /* top: 666px; */
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -131,7 +131,7 @@ main {
 
 .name-input-date {
   position: absolute;
-  left: 43%;
+  left: 40%;
   bottom: 120%;
   color: white;
   font-family: "Roboto";
@@ -142,9 +142,9 @@ main {
   width: 15%;
 }
 
-.check {
-  margin-left: 15vh;
-}
+/* .check {
+  margin-left: 10vh;
+} */
 
 input {
   font-family: "Roboto";
@@ -161,11 +161,11 @@ input {
 }
 
 #country {
-  width: 50%;
+  width: 45%;
 }
 
 #date {
-  width: 20%;
+  width: 25%;
   border: 2px solid #f5bd41;
 }
 .app-market {
