@@ -17,7 +17,7 @@
             <nav class="nav">
               <ul class="nav-list">
                 <li class="nav-item">
-                  <a href="#" class="nav-link"> Stays </a>
+                  <a href="#" class="nav-link nav-link-stays"> Stays </a>
                 </li>
                 <li class="nav-item">
                   <a href="#" class="nav-link">Attractions </a>
@@ -43,14 +43,14 @@
               Discover stays,<br />
               to live, work or just relax
             </h1>
-            <div class="name-input">
+            <!-- <div class="name-input">
               <p class="hotel-name">Your distanation or hotel name</p>
               <p class="check">Check-in Check-out</p>
-            </div>
+            </div> -->
             <form action="" class="main-form">
-              <!-- <label for="country" class="name-input"
+              <label for="country" class="name-input-city"
                 >Your distanation or hotel name</label
-              > -->
+              >
               <input
                 id="country"
                 type="text"
@@ -58,8 +58,10 @@
                 placeholder="City"
                 required
               />
-              <!-- 
-              <label for="date" class="name-input">Check-in Check-out </label> -->
+
+              <label for="date" class="name-input-date"
+                >Check-in&mdash;Check-out
+              </label>
               <input
                 id="date"
                 type="text"
