@@ -44,9 +44,9 @@ main {
 }
 
 .app-store {
-  height: 38.251914978027344px;
-  width: 117.9180908203125px;
-  margin-left: 16.87px;
+  height: 40px;
+  width: 119.6640625px;
+  margin-left: 15px;
 }
 
 .support-icon {
@@ -213,9 +213,9 @@ input {
 }
 
 .top-section__app-market {
-  margin-top: 120px;
+  margin-top: 115px;
   padding-bottom: 120px;
-  padding-left: 40%;
+  padding-left: 39%;
 }
 
 .offer-section__header {
