@@ -16,6 +16,59 @@ main {
   background-image: url(./img/mainBackground.jpg);
 }
 
+/* .svg-sprite {
+  position: absolute;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+} */
+
+.logo-svg {
+  width: 205px;
+  height: 40px;
+}
+
+.night-svg {
+  width: 30px;
+  height: 30px;
+}
+
+.account-svg {
+  width: 40px;
+  height: 40px;
+}
+
+.google-play {
+  height: 39.99994659423828px;
+  width: 135px;
+}
+
+.app-store {
+  height: 38.251914978027344px;
+  width: 117.9180908203125px;
+  margin-left: 16.87px;
+}
+
+.support-icon {
+  height: 91.66666412353516px;
+  width: 75px;
+}
+
+.communicate-icon {
+  height: 83.33333587646484px;
+  width: 83.33333587646484px;
+}
+
+.book-icon {
+  height: 66.66665649414062px;
+  width: 100px;
+}
+
+.reviews-icon {
+  height: 83.33333587646484px;
+  width: 91.66666412353516px;
+}
+
 .header-section {
   padding-top: 51px;
   display: flex;
@@ -27,7 +80,7 @@ main {
   margin-right: 104px;
 }
 
-.nav-list {
+.header-section__list {
   font-family: Sans-serif, "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -37,7 +90,7 @@ main {
   padding-top: 5px;
 }
 
-.nav-link {
+.header-section__item--link {
   width: 59px;
   height: 28px;
   font-family: "Roboto", sans-serif;
@@ -66,7 +119,7 @@ main {
   border-bottom: 4px solid #f5bd41;
 }
 
-.nav-item {
+.header-section__item {
   margin-left: 3vh;
 }
 
@@ -78,13 +131,13 @@ main {
   line-height: 59px;
   width: 542px;
   height: 118px;
-  margin-top: 202px;
+  margin-top: 190px;
 }
 
 .shape__form {
   position: relative;
   display: flex;
-  margin-top: 140px;
+  margin-top: 150px;
   box-sizing: border-box;
   background: #ffffff;
   border: 3px solid #f3f3f4;
