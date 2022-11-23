@@ -324,6 +324,7 @@ footer {
 
 .footer-section {
   display: flex;
+  justify-content: space-between;
   padding-top: 120px;
 }
 
@@ -351,12 +352,12 @@ footer {
   text-decoration: none;
 }
 
-.property {
+/* .property {
   margin-left: 223px;
-}
+}*/
 
 .support {
-  margin-left: 283px;
+  margin-right: 272px;
 }
 
 .footer-section__credit {
@@ -442,10 +443,13 @@ footer {
   }
 
   .footer-section__list {
-    margin-left: 16px;
+    margin-left: 10px;
   }
 
   .footer__list--header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
     text-decoration: underline;
   }
 
@@ -470,8 +474,18 @@ footer {
     padding-top: 40px;
   }
 
+  .support {
+    margin-right: 0;
+  }
+
   .footer-section__credit {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
     text-align: center;
+    margin-top: 30px;
     padding-bottom: 40px;
   }
 }
