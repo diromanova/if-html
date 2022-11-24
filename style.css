@@ -16,12 +16,12 @@ main {
   background-image: url(./img/mainBackground.jpg);
 }
 
-/* .svg-sprite {
+.svg-sprite {
   position: absolute;
   visibility: hidden;
   width: 0;
   height: 0;
-} */
+}
 
 .logo-svg {
   width: 205px;
