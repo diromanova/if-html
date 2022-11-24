@@ -86,13 +86,6 @@ main {
   padding-right: 16px;
 }
 
-/* .svg-sprite {
-  position: absolute;
-  visibility: hidden;
-  width: 0;
-  height: 0;
-} */
-
 .logo-svg {
   width: 205px;
   height: 40px;
@@ -146,15 +139,12 @@ main {
 }
 
 .header-section__list {
-  /* display: flex;
-  align-items: center; */
   font-family: Sans-serif, "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   display: flex;
   list-style: none;
-  /* padding-top: 5px; */
   padding-left: 0;
 }
 
@@ -427,8 +417,8 @@ footer {
   display: none;
 }
 
-@media (max-width: 1024px) {
-  /* For mobile tablets */
+/* @media (max-width: 1024px) {
+  For mobile tablets
 
   .col-md-1 {
     width: var(--col-width);
@@ -498,7 +488,7 @@ footer {
   .footer-section__credit {
     padding-bottom: 5%;
   }
-}
+} */
 
 @media (max-width: 768px) {
   /* For mobile Phone: */
@@ -531,8 +521,11 @@ footer {
     width: 100%;
   }
 
+  main {
+    display: none;
+  }
+
   .wrapper {
-    max-width: 768px;
     padding: 0 8px;
     margin: 0 auto;
   }
@@ -579,30 +572,6 @@ footer {
     text-align: center;
     margin-top: 32px;
   }
-
-  /* .support-icon {
-    height: 70px;
-    width: 70px;
-  }
-
-  .communicate-icon {
-    height: 70px;
-    width: 70px;
-  }
-
-  .book-icon {
-    height: 70px;
-    width: 70px;
-  }
-
-  .reviews-icon {
-    height: 70px;
-    width: 70px;
-  } */
-
-  /* .footer-section__list {
-    margin-left: 15px;
-  } */
 
   .footer__link--header {
     font-family: "Roboto", sans-serif;
