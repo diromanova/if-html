@@ -487,6 +487,10 @@ footer {
   .support {
     margin-right: 0;
   }
+
+  .footer-section__credit {
+    padding-bottom: 5%;
+  }
 }
 
 @media (max-width: 768px) {
