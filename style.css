@@ -114,22 +114,26 @@ main {
 
 .support-icon {
   height: 91.66666412353516px;
-  width: 75px;
+  /* width: 75px; */
+  width: 50%;
 }
 
 .communicate-icon {
   height: 83.33333587646484px;
-  width: 83.33333587646484px;
+  /* width: 83.33333587646484px; */
+  width: 50%;
 }
 
 .book-icon {
   height: 66.66665649414062px;
-  width: 100px;
+  /* width: 100px; */
+  width: 50%;
 }
 
 .reviews-icon {
   height: 83.33333587646484px;
-  width: 91.66666412353516px;
+  /* width: 91.66666412353516px; */
+  width: 50%;
 }
 
 .header-section {
@@ -340,9 +344,9 @@ input {
   align-items: center;
 }
 
-.book {
+/* .book {
   padding-top: 10px;
-}
+} */
 
 .text-icon {
   font-family: "Roboto", sans-serif;
