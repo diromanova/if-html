@@ -22,6 +22,10 @@ main {
   background-image: url(./img/mainBackground.jpg);
 }
 
+.guests-loves {
+  display: none;
+}
+
 .svg-sprite {
   position: absolute;
   visibility: hidden;
@@ -85,7 +89,6 @@ main {
   padding-left: 16px;
   padding-right: 16px;
 }
-
 
 .logo-svg {
   width: 205px;
@@ -170,7 +173,7 @@ main {
 }
 
 .nav-link-attractions {
-  padding-left: 24px;
+  margin-left: 24px;
 }
 
 .stays {
@@ -181,27 +184,13 @@ main {
   padding-top: 5px;
 }
 
-.nav-link-stays:after {
-  display: block;
-  width: 50px;
-  height: 0px;
-  margin: 10px auto 0;
-  content: "";
-  border-bottom: 4px solid #f5bd41;
-}
-
-/* .nav-link-stays:hover::after {
-  display: block;
-  content: "";
+.nav-link-stays:hover,
+.nav-link-attractions:hover {
   border: 0;
   border-bottom: 4px solid #f5bd41;
-  border-style: inset;
+  border-style: solid;
   transition: 0.5s;
-} */
-
-/* .header-section__item {
-  margin-left: 31.5px;
-} */
+}
 
 .shape__header {
   font-family: "Roboto", sans-serif;
@@ -591,6 +580,60 @@ footer {
     margin: 84px auto 0;
     text-align: center;
     margin-top: 32px;
+  }
+
+  .guests-loves {
+    display: block;
+    background-color: #eaf0f9;
+  }
+  .hotel {
+    margin-right: 8px;
+  }
+
+  .apartment {
+    position: relative;
+    margin-left: 8px;
+  }
+  .guests-loves__header {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #383838;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .guests-loves__photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding-bottom: 40px;
+  }
+
+  .name-homes {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3077c6;
+  }
+
+  .describe-homes {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #bfbfbf;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 40%;
+    left: 90%;
   }
 
   .footer__link--header {
