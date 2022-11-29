@@ -22,7 +22,8 @@ main {
   background-image: url(./img/mainBackground.jpg);
 }
 
-.guests-loves {
+.guests-loves,
+.best-destinations {
   display: none;
 }
 
@@ -586,6 +587,10 @@ footer {
     display: block;
     background-color: #eaf0f9;
   }
+
+  .best-destinations {
+    display: block;
+  }
   .hotel {
     margin-right: 8px;
   }
@@ -594,7 +599,8 @@ footer {
     position: relative;
     margin-left: 8px;
   }
-  .guests-loves__header {
+
+  .title {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -605,14 +611,14 @@ footer {
     padding-top: 40px;
   }
 
-  .guests-loves__photos {
+  .photo-block {
     display: flex;
     justify-content: center;
     margin-top: 32px;
     padding-bottom: 40px;
   }
 
-  .name-homes {
+  .name {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
@@ -629,11 +635,48 @@ footer {
     line-height: 14px;
     color: #bfbfbf;
   }
+  .target {
+    max-width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 32px auto;
+  }
+
+  .block {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #383838;
+    width: 98px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #bfbfbf;
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  .regions {
+    color: #fff;
+    background: #3077c6;
+  }
+
+  .maldives {
+    margin-right: 8px;
+  }
+
+  .spain {
+    position: relative;
+    margin-left: 8px;
+  }
 
   .arrow {
     position: absolute;
-    bottom: 40%;
-    left: 90%;
+    width: 28px;
+    height: 28px;
+    top: 35%;
+    left: 78%;
   }
 
   .footer__link--header {
