@@ -146,21 +146,45 @@
                 <label for="date" class="form__name--date"
                   >Check-in &mdash; Check-out
                 </label>
-                <input
-                  id="date"
+                <div id="date">
+                  <input
+                   id="tue"
+                    type="text"
+                    name="date"
+                    placeholder="Tue 15 Sept &mdash; "
+                    required
+                  />
+                  <input
+                  id="sat"
                   type="text"
                   name="date"
-                  placeholder="Tue 15 Sept &mdash; Sat 19 Sept "
+                  placeholder=" Sat 19 Sept "
                   required
                 />
-  
-                <input
-                  id="amount"
+                </div>
+                <div  id="amount"> 
+                  <input
+                   id="adults"
+                    type="text"
+                    name="amount"
+                    placeholder="2 Adults &mdash; "
+                    required
+                  />
+                  <input
+                   id="children"
                   type="text"
                   name="amount"
-                  placeholder="2 Adults &mdash; 0 Children &mdash; 1 Room"
+                  placeholder="0 Children &mdash;"
                   required
                 />
+                <input
+                   id="room"
+                type="text"
+                name="amount"
+                placeholder="1 Room"
+                required
+              />
+                </div>
   
                 <button class="form__btn">Search</button>
               </form>

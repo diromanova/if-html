@@ -292,13 +292,25 @@ input {
 }
 
 #date {
+  display: flex;
   width: 300px;
   border: 2px solid #f5bd41;
-  padding-left: 23px;
 }
 
 #amount {
+  display: flex;
   padding-left: 32px;
+}
+
+#tue,
+#sat {
+  width: 50%;
+}
+
+#adults,
+#children,
+#room {
+  width: 33.3333333333%;
 }
 
 .top-section__app-market {
@@ -569,14 +581,55 @@ footer {
     display: block;
   } */
 
-  #country,
-  #date,
-  #amount {
+  #country {
     /* width: 98%; */
     width: 96%;
-    height: 48px;
+    height: 58px;
     margin: 8px 2%;
     border: none;
+    padding: 0;
+  }
+
+  #date {
+    width: 96%;
+    height: 63px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  #amount {
+    width: 96%;
+    height: 58px;
+    margin: 8px 2%;
+  }
+  #tue {
+    margin-right: 1%;
+  }
+
+  #sat {
+    margin-left: 1%;
+  }
+
+  #amount {
+    padding-left: 0;
+  }
+
+  #adults {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: solid;
+    border-color: #bfbfbf;
+  }
+
+  #children {
+    border-radius: 0;
+    border-right: solid;
+    border-color: #bfbfbf;
+  }
+
+  #room {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
   }
 
   .shape__header {
@@ -593,7 +646,8 @@ footer {
     /* height: 0; */
     /* width: 328px; */
     /* width: 100%; */
-    height: 250px;
+    max-height: 100%;
+    height: 275px;
     margin: 0 auto;
     background-color: #f5bd41;
   }
@@ -607,6 +661,12 @@ footer {
   }
 
   .form__btn {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
     margin-left: 2%;
     margin-right: 2%;
     box-sizing: border-box;
@@ -617,7 +677,7 @@ footer {
     border: 0;
     /* width: 98%; */
     width: 96%;
-    height: 48px;
+    height: 58px;
   }
 
   .top-section__app-market {
