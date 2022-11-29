@@ -7,6 +7,7 @@
 
 body {
   max-width: 1440px;
+  width: 100%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -85,7 +86,6 @@ main {
   padding-left: 16px;
   padding-right: 16px;
 }
-
 
 .logo-svg {
   width: 205px;
@@ -167,6 +167,10 @@ main {
 .night-icon {
   padding-top: 5px;
   padding-left: 48px;
+}
+
+.burger-icon {
+  display: none;
 }
 
 .nav-link-attractions {
@@ -522,9 +526,127 @@ footer {
     width: 100%;
   }
 
-  main {
+  /* main {
+    display: none;
+  } */
+
+  .header-section__list {
+    display: flex;
+    align-items: center;
+  }
+  .logo-svg {
+    margin-left: 16px;
+    width: 121.92px;
+    height: 24px;
+  }
+
+  .night-icon {
+    padding: 0;
+  }
+
+  .night-svg {
+    width: 16px;
+    height: 16px;
+  }
+  .account-icon {
+    padding-right: 16px;
+  }
+
+  .account-svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* .header-section {
+    align-items: center;
+  } */
+
+  .shape__header {
+    margin-top: 40px;
+  }
+
+  /* input {
+    display: block;
+  } */
+
+  #country,
+  #date,
+  #amount {
+    /* width: 98%; */
+    width: 96%;
+    height: 48px;
+    margin: 8px 2%;
+    border: none;
+  }
+
+  .shape__header {
+    width: 100%;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .shape__form {
+    display: block;
+    margin: 0;
+    /* height: 0; */
+    /* width: 328px; */
+    /* width: 100%; */
+    height: 250px;
+    margin: 0 auto;
+    background-color: #f5bd41;
+  }
+
+  .form__name--city {
     display: none;
   }
+
+  .form__name--date {
+    display: none;
+  }
+
+  .form__btn {
+    margin-left: 2%;
+    margin-right: 2%;
+    box-sizing: border-box;
+    color: #ffffff;
+    background: #3077c6;
+    border: 3px solid #f3f3f4;
+    border-radius: 8px;
+    border: 0;
+    /* width: 98%; */
+    width: 96%;
+    height: 48px;
+  }
+
+  .top-section__app-market {
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 40px;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .attractions,
+  .stays {
+    display: none;
+  }
+
+  .burger-icon {
+    display: block;
+    width: 24px;
+    height: 16px;
+  }
+
+  /* .app-store {
+    height: 40px;
+    width: 119.6640625px;
+    border-radius: 0px;
+  }
+
+  .google-play {
+  } */
 
   .wrapper {
     padding: 0 8px;
