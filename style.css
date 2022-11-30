@@ -357,7 +357,7 @@ input {
   line-height: 21px;
   text-align: center;
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 25%;
   width: 50%;
   height: 48px;
@@ -382,8 +382,12 @@ input {
   padding-bottom: 100px;
 }
 
+.arrows_for-mobile {
+  visibility: hidden;
+}
+
 .best-destitations__photo {
-  position: relative;
+  /* position: relative; */
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
@@ -438,6 +442,11 @@ input {
   margin: 48px 47% 120px;
 }
 
+.arrows2__destination {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
 .block {
   margin: 0 1%;
 }
@@ -445,8 +454,10 @@ input {
 .apartment-photo {
   max-height: 280px;
 }
+
 .photo {
   width: 100%;
+  height: 65%;
 }
 
 .target {
@@ -757,7 +768,14 @@ footer {
   }
 
   .apartment {
+    position: relative;
     margin-left: 8px;
+  }
+  .arrows_for-mobile {
+    position: absolute;
+    visibility: visible;
+    left: 96%;
+    bottom: 60%;
   }
 
   .title {
@@ -772,7 +790,6 @@ footer {
   }
 
   .photo-block {
-    position: relative;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -780,7 +797,7 @@ footer {
   }
 
   .arrows {
-    right: 5%;
+    display: none;
   }
 
   .name {
@@ -792,9 +809,9 @@ footer {
     color: #3077c6;
   }
 
-  .best-destinations {
-    display: block;
-  }
+  /* .best-destinations {
+    position: relative;
+  } */
 
   .describe-homes {
     font-family: "Roboto";
@@ -846,33 +863,46 @@ footer {
     display: none;
   }
 
-  .spain {
-    position: relative;
+  .hostel {
     margin-left: 8px;
   }
 
   .arrow {
-    position: absolute;
     width: 28px;
     height: 28px;
     top: 35%;
     left: 78%;
   }
 
-  .best-destinations {
+  /* .spain {
+    position: relative;
+  } */
+
+  /* .arrows__destination {
+    position: absolute;
+    margin: 0;
+  ;
+  } */
+
+  .spain {
     position: relative;
   }
-  .arrows__destination {
+  .arrow2__destination {
     position: absolute;
-    top: 50%;
-    left: 48%;
-  }
-  .arrow__destination {
+    visibility: visible;
     width: 25px;
     height: 25px;
-    transform: rotate(360deg);
+    left: 96%;
+    bottom: 60%;
   }
 
+  .arrows__destination {
+    margin: 0;
+  }
+
+  .arrow__destination {
+    display: none;
+  }
   .footer__link--header {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
