@@ -500,6 +500,59 @@ input {
   padding-top: 20px;
 }
 
+.sign-up__block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+  background: #eaf0f9;
+}
+
+.account-img {
+  padding: 57px 24px;
+}
+
+.header__sign-up {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* text-align: center; */
+  color: #383838;
+  /* padding-top: 51px; */
+  margin-bottom: 21px;
+}
+
+.btn__sign-up {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3077c6;
+  width: 128px;
+  height: 48px;
+  left: 238px;
+  top: 3355px;
+  background: #ffffff;
+  border: 1px solid #3077c6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.close-img {
+  position: absolute;
+  top: 4%;
+  right: 2%;
+}
+
+.btn__install,
+.logo__sign-up {
+  display: none;
+}
+
 footer {
   color: #fff;
   background-color: #10367c;
@@ -903,6 +956,63 @@ footer {
   .arrow__destination {
     display: none;
   }
+
+  .account-img {
+    display: none;
+  }
+
+  .header__sign-up {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 16px;
+  }
+
+  .sign-up__block {
+    background: none;
+    margin-bottom: 24px;
+  }
+
+  .btn__sign-up {
+    display: none;
+  }
+
+  .close-img__svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .close-img {
+    top: 40%;
+    left: 2%;
+  }
+
+  .btn__install {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3077c6;
+    background: none;
+    border: none;
+    padding-left: 16px;
+  }
+
+  .logo__sign-up {
+    display: block;
+    padding-left: 10%;
+  }
+
+  .sign-up__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .footer__link--header {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
