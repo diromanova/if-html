@@ -174,7 +174,7 @@ main {
 }
 
 .nav-link-attractions {
-  padding-left: 24px;
+  margin-left: 24px;
 }
 
 .stays {
@@ -185,27 +185,13 @@ main {
   padding-top: 5px;
 }
 
-.nav-link-stays:after {
-  display: block;
-  width: 50px;
-  height: 0px;
-  margin: 10px auto 0;
-  content: "";
-  border-bottom: 4px solid #f5bd41;
-}
-
-/* .nav-link-stays:hover::after {
-  display: block;
-  content: "";
+.nav-link-stays:hover,
+.nav-link-attractions:hover {
   border: 0;
   border-bottom: 4px solid #f5bd41;
-  border-style: inset;
+  border-style: solid;
   transition: 0.5s;
-} */
-
-/* .header-section__item {
-  margin-left: 31.5px;
-} */
+}
 
 .shape__header {
   font-family: "Roboto", sans-serif;
@@ -370,6 +356,218 @@ input {
   text-align: center;
   color: #383838;
   margin-top: 52px;
+}
+
+.guests-loves {
+  background: #eaf0f9;
+}
+
+.maldives {
+  position: relative;
+}
+
+.btn__book-now {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 48px;
+  color: #3077c6;
+  border: 1px solid #3077c6;
+  border-radius: 4px;
+}
+
+/* .photo-block {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-bottom: 100px;
+} */
+
+.guests-loves__photos {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.arrows_for-mobile {
+  visibility: hidden;
+}
+
+.best-destitations__photo {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #383838;
+  text-align: center;
+  padding-top: 120px;
+}
+.name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3077c6;
+}
+
+.describe-homes {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #bfbfbf;
+}
+
+.arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.arrows {
+  position: absolute;
+  top: 25%;
+  right: 0%;
+}
+
+.arrow__destination {
+  width: 40px;
+  height: 40px;
+  transform: rotate(90deg);
+}
+
+.arrows__destination {
+  margin: 48px 47% 120px;
+}
+
+.arrows2__destination {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.block {
+  margin: 0 1%;
+}
+
+.apartment-photo {
+  max-height: 280px;
+}
+
+.photo {
+  width: 100%;
+  height: 65%;
+}
+
+.target {
+  display: flex;
+  width: 50%;
+  height: 64.01px;
+  margin-top: 104px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.regions {
+  width: 30%;
+  background: #3077c6;
+  color: white;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.cities {
+  width: 30%;
+  color: #383838;
+  background: #f3f3f4;
+}
+
+.places {
+  width: 40%;
+  color: #383838;
+  background: #f3f3f4;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.target__block {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 22px;
+  border: none;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sign-up__block {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+  background: #eaf0f9;
+}
+
+.account-img {
+  padding: 57px 24px;
+}
+
+.header__sign-up {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* text-align: center; */
+  color: #383838;
+  /* padding-top: 51px; */
+  margin-bottom: 21px;
+}
+
+.btn__sign-up {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #3077c6;
+  width: 128px;
+  height: 48px;
+  left: 238px;
+  top: 3355px;
+  background: #ffffff;
+  border: 1px solid #3077c6;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.close-img {
+  position: absolute;
+  top: 4%;
+  right: 2%;
+}
+
+.btn__install,
+.logo__sign-up {
+  display: none;
 }
 
 footer {
@@ -778,6 +976,229 @@ footer {
     margin: 84px auto 0;
     text-align: center;
     margin-top: 32px;
+  }
+
+  .villa {
+    display: none;
+  }
+
+  .hostel {
+    display: none;
+  }
+
+  .norway {
+    display: none;
+  }
+
+  .island {
+    display: none;
+  }
+
+  .guests-loves {
+    display: block;
+    background-color: #eaf0f9;
+  }
+
+  .hotel {
+    margin-right: 8px;
+  }
+
+  .photo {
+    width: 100%;
+    height: 70%;
+  }
+
+  .apartment {
+    position: relative;
+    margin-left: 8px;
+  }
+  .arrows_for-mobile {
+    position: absolute;
+    visibility: visible;
+    left: 96%;
+    bottom: 60%;
+  }
+
+  .title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #383838;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .photo-block {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+
+  .arrows {
+    display: none;
+  }
+
+  .name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #3077c6;
+  }
+
+  /* .best-destinations {
+    position: relative;
+  } */
+
+  .describe-homes {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #bfbfbf;
+  }
+
+  .target {
+    max-width: 350px;
+    display: flex;
+    margin: 32px auto;
+    filter: none;
+  }
+
+  .target__block {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #383838;
+    width: 98px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #bfbfbf;
+    text-align: center;
+    padding-top: 1%;
+  }
+
+  .regions {
+    color: #fff;
+    background: #3077c6;
+    border: 1px solid black;
+    margin-right: 8px;
+  }
+
+  .cities {
+    margin-right: 8px;
+  }
+
+  .maldives {
+    margin-right: 8px;
+  }
+
+  .btn__book-now {
+    display: none;
+  }
+
+  .hostel {
+    margin-left: 8px;
+  }
+
+  .arrow {
+    width: 28px;
+    height: 28px;
+    top: 35%;
+    left: 78%;
+  }
+
+  /* .spain {
+    position: relative;
+  } */
+
+  /* .arrows__destination {
+    position: absolute;
+    margin: 0;
+  ;
+  } */
+
+  .spain {
+    position: relative;
+  }
+  .arrow2__destination {
+    position: absolute;
+    visibility: visible;
+    width: 25px;
+    height: 25px;
+    left: 96%;
+    bottom: 60%;
+  }
+
+  .arrows__destination {
+    margin: 0;
+  }
+
+  .arrow__destination {
+    display: none;
+  }
+
+  .account-img {
+    display: none;
+  }
+
+  .header__sign-up {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    padding-left: 16px;
+  }
+
+  .sign-up__block {
+    background: none;
+    margin-bottom: 24px;
+  }
+
+  .btn__sign-up {
+    display: none;
+  }
+
+  .close-img__svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .close-img {
+    top: 40%;
+    left: 2%;
+  }
+
+  .btn__install {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #3077c6;
+    background: none;
+    border: none;
+    padding-left: 16px;
+  }
+
+  .logo__sign-up {
+    display: block;
+    padding-left: 10%;
+  }
+
+  .sign-up__block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .footer__link--header {
