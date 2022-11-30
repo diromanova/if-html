@@ -570,6 +570,113 @@ input {
   display: none;
 }
 
+.review__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review__place,
+.grade {
+  margin: 24px;
+}
+
+.review-hotel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3077c6;
+}
+
+.review-city {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3077c6;
+  margin-top: 16px;
+}
+
+.review {
+  margin-right: 16px;
+  background: #eaf0f9;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+}
+
+.name-country {
+  margin-left: 16px;
+}
+
+.reviews {
+  display: flex;
+}
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+}
+
+.review__from {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #bfbfbf;
+}
+
+.review__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+  margin-left: 24px;
+  margin-top: 16px;
+  padding-bottom: 66px;
+}
+
+.reviews__header-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #383838;
+  text-align: center;
+  margin: 32px;
+}
+
+.review-photo {
+  width: 100%;
+  height: 40%;
+  padding: 0;
+}
+.rev {
+  display: flex;
+  flex-direction: column;
+}
+
+#marocco {
+  margin: 0;
+}
+[class*="col-"] {
+  padding: 0;
+}
+.reviews__header-section-mobile {
+  display: none;
+}
 footer {
   color: #fff;
   background-color: #10367c;
@@ -846,9 +953,6 @@ footer {
   .shape__form {
     display: block;
     margin: 0;
-    /* height: 0; */
-    /* width: 328px; */
-    /* width: 100%; */
     max-height: 100%;
     height: 275px;
     margin: 0 auto;
@@ -1199,6 +1303,41 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #marocco,
+  .Netherlands {
+    display: none;
+  }
+
+  .rev {
+    padding-right: 16px;
+  }
+
+  .review {
+    width: 100%;
+    margin: 0;
+  }
+
+  .reviews__header-section {
+    display: none;
+  }
+
+  .review-photo {
+    width: 100%;
+    padding: 32px 16px 12px;
+  }
+
+  .reviews__header-section-mobile {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #383838;
+    text-align: center;
+    padding-top: 40px;
   }
 
   .footer__link--header {
