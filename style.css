@@ -600,6 +600,7 @@ input {
 }
 
 .review {
+  position: relative;
   margin-right: 16px;
   background: #eaf0f9;
 }
@@ -663,6 +664,27 @@ h4 {
   height: 40%;
   padding: 0;
 }
+
+.price {
+  position: absolute;
+  height: 48px;
+  width: 400px;
+  max-width: 100%;
+  background: rgba(56, 56, 56, 0.7);
+  top: 34%;
+}
+
+.price__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
 .rev {
   display: flex;
   flex-direction: column;
@@ -670,6 +692,15 @@ h4 {
 
 #marocco {
   margin: 0;
+  position: relative;
+}
+
+.review-photo__arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 18%;
+  right: -5%;
 }
 
 [class*="col-"] {
@@ -1346,6 +1377,10 @@ footer {
     color: #383838;
     text-align: center;
     padding-top: 40px;
+  }
+
+  .price {
+    display: none;
   }
 
   .dots-wrapper {
