@@ -671,12 +671,19 @@ h4 {
 #marocco {
   margin: 0;
 }
+
 [class*="col-"] {
   padding: 0;
 }
+
 .reviews__header-section-mobile {
   display: none;
 }
+
+.dots-wrapper {
+  display: none;
+}
+
 footer {
   color: #fff;
   background-color: #10367c;
@@ -1315,6 +1322,7 @@ footer {
   }
 
   .review {
+    height: 100%;
     width: 100%;
     margin: 0;
   }
@@ -1338,6 +1346,39 @@ footer {
     color: #383838;
     text-align: center;
     padding-top: 40px;
+  }
+
+  .dots-wrapper {
+    display: block;
+  }
+
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+
+  .dot.active {
+    border: 1px solid #000000;
+    background-color: #000000;
+  }
+
+  span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  span:last-child {
+    margin-right: 0;
+  }
+
+  .review__text {
+    padding-bottom: 0;
   }
 
   .footer__link--header {
