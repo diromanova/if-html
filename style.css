@@ -82,10 +82,10 @@ main {
   width: 100%;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
   padding-left: 16px;
   padding-right: 16px;
-}
+} */
 
 .logo-svg {
   width: 205px;
@@ -246,7 +246,7 @@ main {
 
 .form__name--date {
   position: absolute;
-  left: 40%;
+  left: 33%;
   bottom: 137%;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -575,9 +575,24 @@ input {
   justify-content: space-between;
 }
 
-.review__place,
+.grade_svg {
+  width: 15vh;
+  height: 8vh;
+}
+
 .grade {
-  margin: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+.account-photo_svg {
+  width: 53px;
+  height: 53px;
+}
+
+.review__place {
+  margin-left: 24px;
+  margin-top: 24px;
 }
 
 .review-hotel {
@@ -609,6 +624,7 @@ input {
   display: flex;
   align-items: center;
   margin-left: 24px;
+  margin-top: 30px;
 }
 
 .name-country {
@@ -645,6 +661,7 @@ h4 {
   color: #383838;
   margin-left: 24px;
   margin-top: 16px;
+  margin-right: 24px;
   padding-bottom: 66px;
 }
 
@@ -1206,9 +1223,9 @@ footer {
   }
 
   .target {
-    max-width: 350px;
     display: flex;
-    margin: 32px auto;
+    width: 100%;
+    margin-top: 32px;
     filter: none;
   }
 
@@ -1219,7 +1236,7 @@ footer {
     font-size: 19px;
     line-height: 22px;
     color: #383838;
-    width: 98px;
+    width: 33%;
     height: 32px;
     border-radius: 4px;
     border: 1px solid #bfbfbf;
@@ -1377,6 +1394,11 @@ footer {
     color: #383838;
     text-align: center;
     padding-top: 40px;
+  }
+
+  .grade_svg {
+    width: 72.36px;
+    height: 44px;
   }
 
   .price {
