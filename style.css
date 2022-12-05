@@ -366,6 +366,12 @@ input {
   position: relative;
 }
 
+.maldive {
+  background: rgba(56, 56, 56, 0.4);
+  box-shadow: inset 0px 4px 70px rgba(56, 56, 56, 0.5);
+  opacity: 0.5;
+}
+
 .btn__book-now {
   font-family: "Roboto";
   font-style: normal;
@@ -1259,6 +1265,9 @@ footer {
     margin-right: 8px;
   }
 
+  .maldive {
+    opacity: 1;
+  }
   .btn__book-now {
     display: none;
   }
