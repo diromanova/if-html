@@ -82,10 +82,10 @@ main {
   width: 100%;
 }
 
-[class*="col-"] {
+/* [class*="col-"] {
   padding-left: 16px;
   padding-right: 16px;
-}
+} */
 
 .logo-svg {
   width: 205px;
@@ -246,7 +246,7 @@ main {
 
 .form__name--date {
   position: absolute;
-  left: 40%;
+  left: 33%;
   bottom: 137%;
   color: white;
   font-family: "Roboto", sans-serif;
@@ -364,6 +364,12 @@ input {
 
 .maldives {
   position: relative;
+}
+
+.maldive {
+  background: rgba(56, 56, 56, 0.4);
+  box-shadow: inset 0px 4px 70px rgba(56, 56, 56, 0.5);
+  opacity: 0.5;
 }
 
 .btn__book-now {
@@ -567,6 +573,168 @@ input {
 
 .btn__install,
 .logo__sign-up {
+  display: none;
+}
+
+.review__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grade_svg {
+  width: 15vh;
+  height: 8vh;
+}
+
+.grade {
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+.account-photo_svg {
+  width: 53px;
+  height: 53px;
+}
+
+.review__place {
+  margin-left: 24px;
+  margin-top: 24px;
+}
+
+.review-hotel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3077c6;
+}
+
+.review-city {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #3077c6;
+  margin-top: 16px;
+}
+
+.review {
+  position: relative;
+  margin-right: 16px;
+  background: #eaf0f9;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-top: 30px;
+}
+
+.name-country {
+  margin-left: 16px;
+}
+
+.reviews {
+  display: flex;
+}
+h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+}
+
+.review__from {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #bfbfbf;
+}
+
+.review__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #383838;
+  margin-left: 24px;
+  margin-top: 16px;
+  margin-right: 24px;
+  padding-bottom: 66px;
+}
+
+.reviews__header-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47px;
+  color: #383838;
+  text-align: center;
+  margin: 32px;
+}
+
+.review-photo {
+  width: 100%;
+  height: 40%;
+  padding: 0;
+}
+
+.price {
+  position: absolute;
+  height: 48px;
+  width: 400px;
+  max-width: 100%;
+  background: rgba(56, 56, 56, 0.7);
+  top: 34%;
+}
+
+.price__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+.rev {
+  display: flex;
+  flex-direction: column;
+}
+
+#marocco {
+  margin: 0;
+  position: relative;
+}
+
+.review-photo__arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 18%;
+  right: -5%;
+}
+
+[class*="col-"] {
+  padding: 0;
+}
+
+.reviews__header-section-mobile {
+  display: none;
+}
+
+.dots-wrapper {
   display: none;
 }
 
@@ -846,9 +1014,6 @@ footer {
   .shape__form {
     display: block;
     margin: 0;
-    /* height: 0; */
-    /* width: 328px; */
-    /* width: 100%; */
     max-height: 100%;
     height: 275px;
     margin: 0 auto;
@@ -1064,9 +1229,9 @@ footer {
   }
 
   .target {
-    max-width: 350px;
     display: flex;
-    margin: 32px auto;
+    width: 100%;
+    margin-top: 32px;
     filter: none;
   }
 
@@ -1077,7 +1242,7 @@ footer {
     font-size: 19px;
     line-height: 22px;
     color: #383838;
-    width: 98px;
+    width: 33%;
     height: 32px;
     border-radius: 4px;
     border: 1px solid #bfbfbf;
@@ -1100,6 +1265,9 @@ footer {
     margin-right: 8px;
   }
 
+  .maldive {
+    opacity: 1;
+  }
   .btn__book-now {
     display: none;
   }
@@ -1199,6 +1367,88 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  #marocco,
+  .Netherlands {
+    display: none;
+  }
+
+  .rev {
+    padding-right: 16px;
+  }
+
+  .review {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+
+  .reviews__header-section {
+    display: none;
+  }
+
+  .review-photo {
+    width: 100%;
+    padding: 32px 16px 12px;
+  }
+
+  .reviews__header-section-mobile {
+    display: block;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #383838;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .grade_svg {
+    width: 72.36px;
+    height: 44px;
+  }
+
+  .price {
+    display: none;
+  }
+
+  .guests-reviews {
+    background: #eaf0f9;
+  }
+
+  .dots-wrapper {
+    display: block;
+  }
+
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 40px;
+  }
+
+  .dot.active {
+    border: 1px solid #000000;
+    background-color: #000000;
+  }
+
+  span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+
+  span:last-child {
+    margin-right: 0;
+  }
+
+  .review__text {
+    padding-bottom: 0;
   }
 
   .footer__link--header {
