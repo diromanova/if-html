@@ -1414,6 +1414,10 @@ footer {
     display: none;
   }
 
+  .guests-reviews {
+    background: #eaf0f9;
+  }
+
   .dots-wrapper {
     display: block;
   }
